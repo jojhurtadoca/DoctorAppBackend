@@ -30,7 +30,7 @@ namespace API.Middleware
                 var respose = _environment.IsDevelopment() ?
                     new ApiException(context.Response.StatusCode, e.Message, e.StackTrace?.ToString())
                     :
-                    new ApiException(context.Response.StatusCode, e.Message, "Internal Server Error");
+                    new ApiErrorResponse(context.Response.StatusCode);
                 var options = new JsonSerializerOptions
                 {
                     PropertyNamingPolicy = JsonNamingPolicy.CamelCase,

@@ -3,6 +3,13 @@ using Data.Services;
 using Data;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
+using API.Errors;
+using Data.Interfaces.IRepository;
+using Data.Interfaces.Repository;
+using Utils;
+using BLL.Services.Interfaces;
+using BLL.Services;
 
 namespace API.Extensions
 {
@@ -44,6 +51,21 @@ namespace API.Extensions
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
             services.AddCors();
             services.AddScoped<ITokenService, TokenService>();
+            services.Configure<ApiBehaviorOptions>(options =>
+            {
+                options.InvalidModelStateResponseFactory = actionContext =>
+                {
+                    var errors = actionContext.ModelState.Where(e => e.Value.Errors.Count > 0).SelectMany(x => x.Value.Errors).Select(x => x.ErrorMessage).ToArray();
+                    var errorResponse = new ApiValidationsErrorResponse
+                    {
+                        Errors = errors
+                    };
+                    return new BadRequestObjectResult(errorResponse);
+                };
+            });
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddAutoMapper(typeof(MappingProfile));
+            services.AddScoped<ISpecialtyService, SpecialtyService>();
             return services;
         }
     }

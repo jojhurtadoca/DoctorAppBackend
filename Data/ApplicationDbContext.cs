@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Models.Entities;
+using System.Reflection;
 
 namespace Data
 {
@@ -10,5 +11,12 @@ namespace Data
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Specialty> Specialties { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        }
     }
 }
