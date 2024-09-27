@@ -4,6 +4,8 @@
     {
         ISpecialtyRepository SpecialtyRepository { get; }
 
+        IDoctorRepository DoctorRepository { get; }
+
         Task Save();
     }
 }

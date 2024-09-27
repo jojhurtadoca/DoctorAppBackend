@@ -1,10 +1,12 @@
 ﻿using Data;
 using Data.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Models.DTO;
 using Models.Entities;
+using System.Net;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -14,39 +16,54 @@ namespace API.Controllers
     [ApiController]
     public class UserController : BaseApiController
     {
-        private readonly ApplicationDbContext _context;
+        private readonly UserManager<AppUser> _userManager;
         private readonly ITokenService _tokenService;
+        private ApiResponse _response;
+        private readonly RoleManager<AppRole> _roleManager;
 
-        public UserController(ApplicationDbContext context, ITokenService tokenService)
+        public UserController(UserManager<AppUser> userManager, ITokenService tokenService, RoleManager<AppRole> roleManager)
         {
-            _context = context;
+            _userManager = userManager;
             _tokenService = tokenService;
+            _roleManager = roleManager;
+            _response = new ApiResponse();
+        }
+
+        [HttpGet("roles")]
+        public IActionResult GetRoles()
+        {
+            var roles = _roleManager.Roles.Select(r => new
+            {
+                RoleName = r.Name,
+            }).ToList();
+            _response.Result = roles;
+            _response.IsSuccess = true;
+            _response.StatusCode = HttpStatusCode.OK;
+            return Ok(_response);
         }
 
         [HttpPost("login")]
         public async Task<ActionResult<UserDTO>> Login(LoginDTO dto)
         {
-            var user = await _context.Users.SingleOrDefaultAsync(x => x.Username == dto.Username);
+            var user = await _userManager.Users.SingleOrDefaultAsync(x => x.UserName == dto.Username);
             if (user == null)
             {
                 return Unauthorized("Username not found");
             }
-            using var hmac = new HMACSHA512(user.PasswordSalt);
-            var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(dto.Password));
-            for (var i = 0; i < computedHash.Length; i++)
+            var result = await _userManager.CheckPasswordAsync(user, dto.Password);
+
+            if (!result)
             {
-                if (computedHash[i] != user.PasswordHash[i])
-                {
-                    return Unauthorized("Bad credentials");
-                }
+                return BadRequest("Invalid credentials");
             }
             return Ok(new UserDTO
             {
-                UserName = user.Username,
-                Token = _tokenService.MakeToken(user)
+                UserName = user.UserName,
+                Token = await _tokenService.MakeToken(user)
             });
         }
 
+        [Authorize(Policy = "AdminPolicy")]
         [HttpPost("register")]
         public async Task<ActionResult<User>> RegisterUser(CreateUserDTO user)
         {
@@ -55,24 +72,43 @@ namespace API.Controllers
                 return BadRequest("User is already registered");
             }
 
-            using var hmac = new HMACSHA512();
-            var newUser = new User
+            //using var hmac = new HMACSHA512();
+            var newUser = new AppUser
             {
-                Username = user.Username.ToLower(),
-                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(user.Password)),
-                PasswordSalt = hmac.Key,
+                UserName = user.Username.ToLower(),
+                Email = user.Email,
+                Lastname = user.Lastname,
+                Name = user.Name
             };
-            _context.Add(newUser);
-            await _context.SaveChangesAsync();
-            return Ok(newUser);
+
+            var result = await _userManager.CreateAsync(newUser, user.Password );
+
+            if (!result.Succeeded)
+            {
+                return BadRequest(result.Errors);
+            }
+
+            var roleResult = await _userManager.AddToRoleAsync(newUser, user.Role);
+
+            if (!roleResult.Succeeded)
+            {
+                return BadRequest("Error adding role");
+            }
+
+            var userDTO = new UserDTO
+            {
+                UserName = newUser.UserName,
+                Token = await _tokenService.MakeToken(newUser)
+            };
+            return Ok(userDTO);
         }
 
         private async Task<bool> UserExists(string username)
         {
-            return await _context.Users.AnyAsync(x => x.Username == username);
+            return await _userManager.Users.AnyAsync(x => x.UserName == username);
         }
 
-        [Authorize]
+       /* [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
@@ -86,6 +122,6 @@ namespace API.Controllers
         {
             var user = await _context.Users.FindAsync(id);
             return Ok(user);
-        }
+        }*/
     }
 }

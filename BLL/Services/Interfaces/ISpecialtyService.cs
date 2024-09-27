@@ -6,6 +6,8 @@ namespace BLL.Services.Interfaces
     {
         Task<IEnumerable<SpecialtyDTO>> GetAll();
 
+        Task<IEnumerable<SpecialtyDTO>> GetActives();
+
         Task<SpecialtyDTO> Add(SpecialtyDTO specialtyDTO);
 
         Task Update(SpecialtyDTO specialtyDTO);

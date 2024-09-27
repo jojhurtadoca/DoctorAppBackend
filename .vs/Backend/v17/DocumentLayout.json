@@ -1,142 +1,209 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919212154_EditStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240919212154_EditStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\models\\entities\\specialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\entities\\specialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\models\\dto\\specialtydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\dto\\specialtydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919211908_EditSpecialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240919211908_EditSpecialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\interfaces\\repository\\specialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\repository\\specialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\extensions\\appextensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\extensions\\appextensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\interfaces\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\interfaces\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\interfaces\\irepository\\ispecialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\irepository\\ispecialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\interfaces\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\interfaces\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919203513_second_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240919203513_second_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\configurations\\specialtyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\configurations\\specialtyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919203401_second_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240919203401_second_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\errors\\apivalidationserrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\errors\\apivalidationserrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\controllers\\errortestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\controllers\\errortestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\errors\\apierrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\errors\\apierrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\errors\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\errors\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\models\\dto\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\dto\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\extensions\\identityextensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\extensions\\identityextensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\extensions\\identityextensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\errors\\apivalidationserrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\errors\\apivalidationserrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\controllers\\specialtycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\controllers\\specialtycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\extensions\\appextensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\extensions\\appextensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\models\\dto\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\dto\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\initializer\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\initializer\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\migrations\\20240909192820_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240909192820_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\initializer\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\initializer\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\johurtado\\source\\repos\\doctorapp\\doctorappbackend\\data\\migrations\\20240911184511_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240911184511_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240926204238_AddIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240926204238_AddIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\models\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\models\\entities\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\entities\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\models\\entities\\appuserroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\entities\\appuserroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\errors\\apierrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\errors\\apierrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\models\\dto\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\dto\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8534B12F-C8A6-4A51-9ECD-A9E5C8EDE50D}|BLL\\BLL.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\bll\\services\\specialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8534B12F-C8A6-4A51-9ECD-A9E5C8EDE50D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\specialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8534B12F-C8A6-4A51-9ECD-A9E5C8EDE50D}|BLL\\BLL.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\bll\\services\\interfaces\\ispecialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8534B12F-C8A6-4A51-9ECD-A9E5C8EDE50D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\interfaces\\ispecialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8534B12F-C8A6-4A51-9ECD-A9E5C8EDE50D}|BLL\\BLL.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\bll\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8534B12F-C8A6-4A51-9ECD-A9E5C8EDE50D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240926170336_DoctorMigrationAlterGenderData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240926170336_DoctorMigrationAlterGenderData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\configurations\\doctorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\configurations\\doctorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\models\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8534B12F-C8A6-4A51-9ECD-A9E5C8EDE50D}|BLL\\BLL.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\bll\\services\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8534B12F-C8A6-4A51-9ECD-A9E5C8EDE50D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2249496-A36A-4D65-87AA-6ECFC68CB14D}|Utils\\Utils.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\utils\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2249496-A36A-4D65-87AA-6ECFC68CB14D}|Utils\\Utils.csproj|solutionrelative:utils\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\interfaces\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\interfaces\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\interfaces\\repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\interfaces\\irepository\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\irepository\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240926162641_DoctorMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240926162641_DoctorMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\configurations\\specialtyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\configurations\\specialtyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\models\\dto\\specialtydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\dto\\specialtydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\migrations\\20240919212154_editstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240919212154_editstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\models\\entities\\specialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D0EB24-23B8-45F7-ABC0-4DACFA768620}|Models\\Models.csproj|solutionrelative:models\\entities\\specialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\interfaces\\repository\\specialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\repository\\specialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\interfaces\\irepository\\ispecialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\irepository\\ispecialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\interfaces\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\interfaces\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\interfaces\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919203401_second_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\controllers\\errortestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\controllers\\errortestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\errors\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\errors\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C48B0B5-15B3-4B6E-BA49-F68132470667}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\migrations\\20240919211908_editspecialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240919211908_editspecialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|c:\\users\\usuario\\documents\\proyectos\\csharp\\doctorapp\\backend\\data\\migrations\\20240919203513_second_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B98D111-9EB0-4827-87E8-B334A3698D54}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240919203513_second_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -146,7 +213,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 50,
           "Children": [
             {
               "$type": "Bookmark",
@@ -161,12 +228,276 @@
               "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Initializer\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\Initializer\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Initializer\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\Initializer\\DbInitializer.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAowD4AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T22:24:37.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IdbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Initializer\\IdbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\Initializer\\IdbInitializer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Initializer\\IdbInitializer.cs",
+              "RelativeToolTip": "Data\\Initializer\\IdbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T22:24:15.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240926204238_AddIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240926204238_AddIdentity.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240926204238_AddIdentity.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240926204238_AddIdentity.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240926204238_AddIdentity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T20:42:38.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppUserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\AppUserRoles.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\AppUserRoles.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\AppUserRoles.cs",
+              "RelativeToolTip": "Models\\Entities\\AppUserRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T20:32:35.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\AppRole.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\AppRole.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\AppRole.cs",
+              "RelativeToolTip": "Models\\Entities\\AppRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T20:32:01.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\AppUser.cs",
+              "RelativeToolTip": "Models\\Entities\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T20:30:03.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SpecialtyService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\Services\\SpecialtyService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\SpecialtyService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\Services\\SpecialtyService.cs",
+              "RelativeToolTip": "BLL\\Services\\SpecialtyService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:16:45.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ISpecialtyService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\Services\\Interfaces\\ISpecialtyService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\Interfaces\\ISpecialtyService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\Services\\Interfaces\\ISpecialtyService.cs",
+              "RelativeToolTip": "BLL\\Services\\Interfaces\\ISpecialtyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:16:25.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240926170336_DoctorMigrationAlterGenderData.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240926170336_DoctorMigrationAlterGenderData.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240926170336_DoctorMigrationAlterGenderData.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240926170336_DoctorMigrationAlterGenderData.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240926170336_DoctorMigrationAlterGenderData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:03:36.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "API\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:56:03.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\Services\\DoctorService.cs",
+              "RelativeToolTip": "BLL\\Services\\DoctorService.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowDgAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:39:50.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\Services\\Interfaces\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\Interfaces\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\Services\\Interfaces\\IDoctorService.cs",
+              "RelativeToolTip": "BLL\\Services\\Interfaces\\IDoctorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:38:50.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Utils\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Utils\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Utils\\MappingProfile.cs",
+              "RelativeToolTip": "Utils\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:36:56.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DoctorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\DTO\\DoctorDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\DoctorDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\DTO\\DoctorDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\DoctorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:35:17.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\Repository\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\Repository\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\Repository\\DoctorRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\Repository\\DoctorRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:30:27.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IDoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\IRepository\\IDoctorRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IRepository\\IDoctorRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\IRepository\\IDoctorRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IRepository\\IDoctorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:29:38.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240926162641_DoctorMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240926162641_DoctorMigration.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240926162641_DoctorMigration.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240926162641_DoctorMigration.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240926162641_DoctorMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:26:41.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DoctorConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Configurations\\DoctorConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\DoctorConfiguration.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Configurations\\DoctorConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\DoctorConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:38:16.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Doctor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\Doctor.cs",
+              "RelativeToolTip": "Models\\Entities\\Doctor.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:21:38.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpecialtyController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Controllers\\SpecialtyController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\SpecialtyController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Controllers\\SpecialtyController.cs",
+              "RelativeToolTip": "API\\Controllers\\SpecialtyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T19:18:56.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "20240919212154_EditStatus.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919212154_EditStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240919212154_EditStatus.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240919212154_EditStatus.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919212154_EditStatus.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240919212154_EditStatus.cs",
               "RelativeToolTip": "Data\\Migrations\\20240919212154_EditStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,24 +506,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 35,
               "Title": "SpecialtyDTO.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\DTO\\SpecialtyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\DTO\\SpecialtyDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\SpecialtyDTO.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\DTO\\SpecialtyDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\DTO\\SpecialtyDTO.cs",
               "RelativeToolTip": "Models\\DTO\\SpecialtyDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAEBTwBUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T21:20:08.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 49,
               "Title": "20240919211908_EditSpecialty.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919211908_EditSpecialty.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240919211908_EditSpecialty.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240919211908_EditSpecialty.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919211908_EditSpecialty.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240919211908_EditSpecialty.cs",
               "RelativeToolTip": "Data\\Migrations\\20240919211908_EditSpecialty.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -201,37 +532,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 29,
               "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\Repository\\UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\Repository\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\Repository\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\Repository\\UnitOfWork.cs",
               "RelativeToolTip": "Data\\Interfaces\\Repository\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T21:07:14.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 30,
               "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\IRepository\\IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\IRepository\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IRepository\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\IRepository\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\IRepository\\IUnitOfWork.cs",
               "RelativeToolTip": "Data\\Interfaces\\IRepository\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T21:06:02.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 38,
               "Title": "SpecialtyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\Repository\\SpecialtyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\Repository\\SpecialtyRepository.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\Repository\\SpecialtyRepository.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\Repository\\SpecialtyRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\Repository\\SpecialtyRepository.cs",
               "RelativeToolTip": "Data\\Interfaces\\Repository\\SpecialtyRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -240,11 +571,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 39,
               "Title": "ISpecialtyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\IRepository\\ISpecialtyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\IRepository\\ISpecialtyRepository.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IRepository\\ISpecialtyRepository.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\IRepository\\ISpecialtyRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\IRepository\\ISpecialtyRepository.cs",
               "RelativeToolTip": "Data\\Interfaces\\IRepository\\ISpecialtyRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -253,24 +584,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 40,
               "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\Repository\\Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\Repository\\Repository.cs",
               "RelativeToolTip": "Data\\Interfaces\\Repository\\Repository.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAAEQAAAAiAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAIBJwEQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T20:46:32.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 41,
               "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\IRepository\\IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\IRepository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IRepository\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\IRepository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\IRepository\\IGenericRepository.cs",
               "RelativeToolTip": "Data\\Interfaces\\IRepository\\IGenericRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -279,11 +610,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 37,
               "Title": "Specialty.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Entities\\Specialty.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\Specialty.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Specialty.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Entities\\Specialty.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\Specialty.cs",
               "RelativeToolTip": "Models\\Entities\\Specialty.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -292,11 +623,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 50,
               "Title": "20240919203513_second_migration.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919203513_second_migration.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240919203513_second_migration.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240919203513_second_migration.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919203513_second_migration.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Migrations\\20240919203513_second_migration.cs",
               "RelativeToolTip": "Data\\Migrations\\20240919203513_second_migration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,61 +638,59 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AppExtensionService.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Extensions\\AppExtensionService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Extensions\\AppExtensionService.cs",
               "RelativeDocumentMoniker": "API\\Extensions\\AppExtensionService.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Extensions\\AppExtensionService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Extensions\\AppExtensionService.cs",
               "RelativeToolTip": "API\\Extensions\\AppExtensionService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAD4AAAA6AAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEQAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T16:46:06.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 34,
               "Title": "SpecialtyConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Configurations\\SpecialtyConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Configurations\\SpecialtyConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configurations\\SpecialtyConfiguration.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Configurations\\SpecialtyConfiguration.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Configurations\\SpecialtyConfiguration.cs",
               "RelativeToolTip": "Data\\Configurations\\SpecialtyConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T20:29:09.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 42,
               "Title": "20240919203401_second_migration.cs",
               "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919203401_second_migration.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240919203401_second_migration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919203401_second_migration.cs",
               "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919203401_second_migration.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240919203401_second_migration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240919203401_second_migration.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T20:34:01.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T20:34:01.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABaAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T20:12:03.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "ApiValidationsErrorResponse.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Errors\\ApiValidationsErrorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Errors\\ApiValidationsErrorResponse.cs",
               "RelativeDocumentMoniker": "API\\Errors\\ApiValidationsErrorResponse.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Errors\\ApiValidationsErrorResponse.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Errors\\ApiValidationsErrorResponse.cs",
               "RelativeToolTip": "API\\Errors\\ApiValidationsErrorResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -370,11 +699,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 43,
               "Title": "ErrorController.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Controllers\\ErrorController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Controllers\\ErrorController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ErrorController.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Controllers\\ErrorController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Controllers\\ErrorController.cs",
               "RelativeToolTip": "API\\Controllers\\ErrorController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -385,72 +714,74 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "ApiErrorResponse.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Errors\\ApiErrorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Errors\\ApiErrorResponse.cs",
               "RelativeDocumentMoniker": "API\\Errors\\ApiErrorResponse.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Errors\\ApiErrorResponse.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Errors\\ApiErrorResponse.cs",
               "RelativeToolTip": "API\\Errors\\ApiErrorResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAhAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T15:21:23.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 44,
               "Title": "ErrorTestController.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Controllers\\ErrorTestController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Controllers\\ErrorTestController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ErrorTestController.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Controllers\\ErrorTestController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Controllers\\ErrorTestController.cs",
               "RelativeToolTip": "API\\Controllers\\ErrorTestController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACUAAAA4AAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAABQwCUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T20:32:36.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 2,
               "Title": "IdentityExtensionService.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Extensions\\IdentityExtensionService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Extensions\\IdentityExtensionService.cs",
               "RelativeDocumentMoniker": "API\\Extensions\\IdentityExtensionService.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Extensions\\IdentityExtensionService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Extensions\\IdentityExtensionService.cs",
               "RelativeToolTip": "API\\Extensions\\IdentityExtensionService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAA8AAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:58:17.865Z"
+              "WhenOpened": "2024-09-16T16:58:17.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwA8AAAAzAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T19:17:24.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 6,
               "Title": "CreateUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\DTO\\CreateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\DTO\\CreateUserDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\CreateUserDTO.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\DTO\\CreateUserDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\DTO\\CreateUserDTO.cs",
               "RelativeToolTip": "Models\\DTO\\CreateUserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABrAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T20:38:20.647Z"
+              "WhenOpened": "2024-09-18T20:38:20.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 46,
               "Title": "ApiException.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Errors\\ApiException.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Errors\\ApiException.cs",
               "RelativeDocumentMoniker": "API\\Errors\\ApiException.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Errors\\ApiException.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Errors\\ApiException.cs",
               "RelativeToolTip": "API\\Errors\\ApiException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -459,136 +790,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 45,
               "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Middleware\\ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "API\\Middleware\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Middleware\\ExceptionMiddleware.cs",
               "RelativeToolTip": "API\\Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAzwCAAAABEAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwCAAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T20:52:44.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 48,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\appsettings.Development.json",
               "RelativeToolTip": "API\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-13T16:06:12.503Z"
+              "WhenOpened": "2024-09-13T16:06:12.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 18,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Entities\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Entities\\User.cs",
               "RelativeToolTip": "Models\\Entities\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T18:54:56.721Z"
+              "WhenOpened": "2024-09-11T18:54:56.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\Controllers\\UserController.cs",
               "RelativeToolTip": "API\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAqwCIAAABWAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T19:33:35.948Z"
+              "WhenOpened": "2024-09-09T19:33:35.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 7,
               "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Services\\TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Data\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Services\\TokenService.cs",
               "RelativeToolTip": "Data\\Services\\TokenService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACAAAAAyAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowBwAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T19:16:23.205Z"
+              "WhenOpened": "2024-09-12T19:16:23.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 47,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\API\\appsettings.json",
               "RelativeToolTip": "API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-09T19:30:49.323Z"
+              "WhenOpened": "2024-09-09T19:30:49.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 12,
               "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\DTO\\UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\DTO\\UserDTO.cs",
               "RelativeToolTip": "Models\\DTO\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T19:33:17.399Z"
+              "WhenOpened": "2024-09-12T19:33:17.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 8,
               "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Interfaces\\ITokenService.cs",
               "RelativeToolTip": "Data\\Interfaces\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T19:15:19.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Models.csproj",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj",
-              "RelativeDocumentMoniker": "Models\\Models.csproj",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj",
-              "RelativeToolTip": "Models\\Models.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-12T18:49:30.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "20240911184511_initial.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240911184511_initial.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240911184511_initial.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240911184511_initial.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240911184511_initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T18:45:11.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20240909192820_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240909192820_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240909192820_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Migrations\\20240909192820_InitialCreate.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240909192820_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T19:28:20.836Z"
+              "WhenOpened": "2024-09-12T19:15:19.131Z",
+              "EditorCaption": ""
             }
           ]
         }

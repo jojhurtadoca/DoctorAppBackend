@@ -46,6 +46,20 @@ namespace BLL.Services
             }
         }
 
+        public async Task<IEnumerable<SpecialtyDTO>> GetActives()
+        {
+            try
+            {
+                var list = await unitOfWork.SpecialtyRepository.GetAll(orderBy: e => e.OrderBy(e => e.Name));
+                var actives = list.Where(l => l.Status == true);
+                return mapper.Map<IEnumerable<SpecialtyDTO>>(actives);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
         public async Task<IEnumerable<SpecialtyDTO>> GetAll()
         {
             try

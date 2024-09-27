@@ -6,11 +6,13 @@ namespace Data.Interfaces.Repository
     {
         private readonly ApplicationDbContext _context;
         public ISpecialtyRepository SpecialtyRepository { get; private set; }
+        public IDoctorRepository DoctorRepository { get; private set; }
 
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
             SpecialtyRepository = new SpecialtyRepository(context);
+            DoctorRepository = new DoctorRepository(context);
         }
 
         public void Dispose()

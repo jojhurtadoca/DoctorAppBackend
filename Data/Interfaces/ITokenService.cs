@@ -4,6 +4,6 @@ namespace Data.Interfaces
 {
     public interface ITokenService
     {
-        string MakeToken(User user);
+        Task<string> MakeToken(AppUser user);
     }
 }

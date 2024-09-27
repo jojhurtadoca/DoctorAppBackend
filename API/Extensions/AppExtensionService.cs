@@ -66,6 +66,7 @@ namespace API.Extensions
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddAutoMapper(typeof(MappingProfile));
             services.AddScoped<ISpecialtyService, SpecialtyService>();
+            services.AddScoped<IDoctorService, DoctorService>();
             return services;
         }
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Data.csproj": {}
+    "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Data.csproj": {
+    "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\johurtado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\johurtado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj"
+              "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -95,17 +99,17 @@
         }
       }
     },
-    "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj": {
+    "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\johurtado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\johurtado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,6 +140,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
