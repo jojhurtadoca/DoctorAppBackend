@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\BLL.csproj": {}
+    "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\BLL.csproj": {
+    "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\johurtado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\johurtado\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,14 +29,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Data.csproj"
+              "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Data.csproj"
               },
-              "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj"
+              "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj"
               },
-              "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Utils\\Utils.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Utils\\Utils.csproj"
+              "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Utils\\Utils.csproj": {
+                "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Utils\\Utils.csproj"
               }
             }
           }
@@ -75,17 +75,17 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Data.csproj": {
+    "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Data\\obj\\",
+        "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\johurtado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\johurtado\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +100,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj"
+              "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj"
               }
             }
           }
@@ -170,17 +170,17 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj": {
+    "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\obj\\",
+        "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\johurtado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\johurtado\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -237,17 +237,17 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Utils\\Utils.csproj": {
+    "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Utils\\Utils.csproj",
+        "projectUniqueName": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Utils\\Utils.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Utils\\obj\\",
+        "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Utils\\Utils.csproj",
+        "packagesPath": "C:\\Users\\johurtado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\johurtado\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -262,8 +262,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Documents\\Proyectos\\Csharp\\DoctorApp\\Backend\\Models\\Models.csproj"
+              "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\johurtado\\source\\repos\\DoctorApp\\DoctorAppBackend\\Models\\Models.csproj"
               }
             }
           }

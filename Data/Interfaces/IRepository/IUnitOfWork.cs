@@ -6,6 +6,8 @@
 
         IDoctorRepository DoctorRepository { get; }
 
+        IUserRepository UserRepository { get; }
+
         Task Save();
     }
 }

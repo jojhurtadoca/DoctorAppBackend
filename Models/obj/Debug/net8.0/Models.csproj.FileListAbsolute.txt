@@ -46,3 +46,4 @@ C:\Users\Usuario\Documents\Proyectos\Csharp\DoctorApp\Backend\Models\obj\Debug\n
 C:\Users\Usuario\Documents\Proyectos\Csharp\DoctorApp\Backend\Models\obj\Debug\net8.0\Models.pdb
 C:\Users\Usuario\Documents\Proyectos\Csharp\DoctorApp\Backend\Models\obj\Debug\net8.0\ref\Models.dll
 C:\Users\Usuario\Documents\Proyectos\Csharp\DoctorApp\Backend\Models\obj\Debug\net8.0\Models.csproj.AssemblyReference.cache
+C:\Users\johurtado\source\repos\DoctorApp\DoctorAppBackend\Models\obj\Debug\net8.0\Models.csproj.AssemblyReference.cache

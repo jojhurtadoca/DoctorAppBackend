@@ -11,6 +11,8 @@ namespace Data.Interfaces.Repository
         public IMedicalRecordRepository MedicalRecordRepository { get; private set; }
         public IMedicalHistoryRepository MedicalHistoryRepository { get; private set; }
 
+        public IUserRepository UserRepository { get; private set; }
+
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
@@ -19,6 +21,7 @@ namespace Data.Interfaces.Repository
             PatientRepository = new PatientRepository(context);
             MedicalHistoryRepository = new MedicalHistoryRepository(context);
             MedicalRecordRepository = new MedicalRecordRepository(context);
+            UserRepository = new UserRepository(context);
         }
 
         public void Dispose()

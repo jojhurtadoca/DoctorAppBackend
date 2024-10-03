@@ -1,5 +1,6 @@
 ﻿using Data;
 using Data.Interfaces;
+using Data.Interfaces.IRepository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -20,13 +21,15 @@ namespace API.Controllers
         private readonly ITokenService _tokenService;
         private ApiResponse _response;
         private readonly RoleManager<AppRole> _roleManager;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public UserController(UserManager<AppUser> userManager, ITokenService tokenService, RoleManager<AppRole> roleManager)
+        public UserController(UserManager<AppUser> userManager, ITokenService tokenService, RoleManager<AppRole> roleManager, IUnitOfWork work)
         {
             _userManager = userManager;
             _tokenService = tokenService;
             _roleManager = roleManager;
             _response = new ApiResponse();
+            _unitOfWork = work;
         }
 
         [HttpGet("roles")]
@@ -112,15 +115,24 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult> GetUsers()
         {
-            var users = await _userManager.Users.Select(s => new UserListDto
+            var users = await _unitOfWork.UserRepository.GetUsersWithRoles();
+            var userDtoList = users.Select(s => new UserListDto
             {
                 Username = s.UserName,
                 Name = s.Name,
                 Email = s.Email,
                 Lastname = s.Lastname,
                 Role = string.Join(',', _userManager.GetRolesAsync(s).Result.ToArray()),
-            }).ToListAsync();
-            _response.Result = users;
+            });
+            /*var users = await _userManager.Users.Select(s => new UserListDto
+            {
+                Username = s.UserName,
+                Name = s.Name,
+                Email = s.Email,
+                Lastname = s.Lastname,
+                Role = string.Join(',', _userManager.GetRolesAsync(s).Result.ToArray()),
+            }).ToListAsync();*/
+            _response.Result = userDtoList;
             _response.IsSuccess = true;
             _response.StatusCode = HttpStatusCode.OK;
             return Ok(_response);
