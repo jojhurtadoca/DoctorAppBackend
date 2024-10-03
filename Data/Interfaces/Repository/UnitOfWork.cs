@@ -7,12 +7,18 @@ namespace Data.Interfaces.Repository
         private readonly ApplicationDbContext _context;
         public ISpecialtyRepository SpecialtyRepository { get; private set; }
         public IDoctorRepository DoctorRepository { get; private set; }
+        public IPatientRepository PatientRepository { get; private set; }
+        public IMedicalRecordRepository MedicalRecordRepository { get; private set; }
+        public IMedicalHistoryRepository MedicalHistoryRepository { get; private set; }
 
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
             SpecialtyRepository = new SpecialtyRepository(context);
             DoctorRepository = new DoctorRepository(context);
+            PatientRepository = new PatientRepository(context);
+            MedicalHistoryRepository = new MedicalHistoryRepository(context);
+            MedicalRecordRepository = new MedicalRecordRepository(context);
         }
 
         public void Dispose()

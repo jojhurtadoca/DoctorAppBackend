@@ -20,11 +20,10 @@ namespace Models.DTO
         [StringLength(40, MinimumLength = 1, ErrorMessage = "Phone must be between 1 and 40 characters")]
         public string Phone { get; set; }
 
-        [Required]
-        [StringLength(1, MinimumLength = 1, ErrorMessage = "Address must be 1 character")]
+        [Required(ErrorMessage = "Gender is required")]
         public char Gender { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Specialty is required")]
         public int SpecialtyId { get; set; }
 
         public string SpecialtyName { get; set; }

@@ -42,7 +42,7 @@ namespace API.Extensions
                 });
                 opt.AddPolicy("DoctorPolicy", policy =>
                 {
-                    policy.RequireRole("Doctor");
+                    policy.RequireRole("Doctor", "Admin");
                 });
             });
             return services;

@@ -35,35 +35,47 @@ namespace Data.Initializer
                 throw;
             }
 
-            if (_context.Roles.Any(r => r.Name == "Admin")) return;
-
-            _roleManager.CreateAsync(new AppRole
+            if (_context.Roles.Any(r => r.Name != "Admin"))
             {
-                Name = "Admin"
-            }).GetAwaiter().GetResult();
+                _roleManager.CreateAsync(new AppRole
+                {
+                    Name = "Admin",
+                }).GetAwaiter().GetResult();
 
-            _roleManager.CreateAsync(new AppRole
+                _roleManager.CreateAsync(new AppRole
+                {
+                    Name = "Agent"
+                }).GetAwaiter().GetResult();
+
+                _roleManager.CreateAsync(new AppRole
+                {
+                    Name = "Doctor"
+                }).GetAwaiter().GetResult();
+            }
+
+            AppUser adminUser = _context.AppUsers.Where(r => r.UserName == "Administrator").FirstOrDefault();
+
+            if (adminUser == null)
             {
-                Name = "Agent"
-            }).GetAwaiter().GetResult();
+                var user = new AppUser
+                {
+                    UserName = "Administrator",
+                    Email = "admin@doctorapp.com",
+                    Lastname = "Doe",
+                    Name = "John"
+                };
 
-            _roleManager.CreateAsync(new AppRole
+                _userManager.CreateAsync(user, "Admin123").GetAwaiter().GetResult();
+            }
+
+            // We need to check if Administrator already has Admin role
+            AppRole adminRole = _context.Roles.Where(r => r.Name == "Admin").FirstOrDefault();
+            AppUserRoles role = _context.UserRoles.Where(r => r.RoleId == adminRole.Id && r.UserId == adminUser.Id).FirstOrDefault();
+
+            if (role == null)
             {
-                Name = "Doctor"
-            }).GetAwaiter().GetResult();
-
-            var user = new AppUser
-            {
-                UserName = "Administrator",
-                Email = "admin@doctorapp.com",
-                Lastname = "Doe",
-                Name = "John"
-            };
-
-            _userManager.CreateAsync(user, "Admin123").GetAwaiter().GetResult();
-
-            AppUser adminUser = _context.AppUsers.Where(r => r.Name == "Administrator").FirstOrDefault();
-            _userManager.AddToRoleAsync(adminUser, "Admin").GetAwaiter().GetResult();
+                _userManager.AddToRoleAsync(adminUser, adminRole.Name).GetAwaiter().GetResult();
+            }
         }
     }
 }

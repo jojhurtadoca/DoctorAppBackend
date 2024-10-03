@@ -12,10 +12,10 @@ namespace Models.DTO
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Name is required")]
-        [StringLength(60, MinimumLength = 6, ErrorMessage = "Min Length is 6 and Max Length is 60")]
+        [StringLength(60, MinimumLength = 6, ErrorMessage = "Min Name Length is 6 and Max Name Length is 60")]
         public string Name { get; set; }
         [Required(ErrorMessage = "Description is required")]
-        [StringLength(100, MinimumLength = 6, ErrorMessage = "Min Length is 6 and Max Length is 100")]
+        [StringLength(100, MinimumLength = 6, ErrorMessage = "Min Description Length is 6 and Max Description Length is 100")]
 
         public string Description { get; set; }
 

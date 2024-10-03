@@ -108,15 +108,25 @@ namespace API.Controllers
             return await _userManager.Users.AnyAsync(x => x.UserName == username);
         }
 
-       /* [Authorize]
+        [Authorize(Policy = "AdminPolicy")]
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+        public async Task<ActionResult> GetUsers()
         {
-            var users = await _context.Users.ToListAsync();
-            return Ok(users);
+            var users = await _userManager.Users.Select(s => new UserListDto
+            {
+                Username = s.UserName,
+                Name = s.Name,
+                Email = s.Email,
+                Lastname = s.Lastname,
+                Role = string.Join(',', _userManager.GetRolesAsync(s).Result.ToArray()),
+            }).ToListAsync();
+            _response.Result = users;
+            _response.IsSuccess = true;
+            _response.StatusCode = HttpStatusCode.OK;
+            return Ok(_response);
         }
 
-        [Authorize]
+       /* [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(int id)
         {
